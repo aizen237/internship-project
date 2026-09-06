@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Store — Shop Simple, Live Better</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <a href="#" class="logo">Aura</a>
+
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="cart-btn" aria-label="View cart">
+        🛒 <span id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Everyday essentials, thoughtfully made.</h1>
+        <p>Quality goods for a simpler life — shipped fast, priced fair.</p>
+        <a href="#products" class="btn-primary">Shop Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://via.placeholder.com/500x400" alt="Featured product collection on a wooden table">
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+
+        <article class="product-card">
+          <img src="https://via.placeholder.com/300x300" alt="Ceramic mug">
+          <h3>Ceramic Mug</h3>
+          <p class="price">$18.00</p>
+          <button class="btn-add-cart">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <img src="https://via.placeholder.com/300x300" alt="Linen tote bag">
+          <h3>Linen Tote Bag</h3>
+          <p class="price">$32.00</p>
+          <button class="btn-add-cart">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <img src="https://via.placeholder.com/300x300" alt="Wooden desk lamp">
+          <h3>Wooden Desk Lamp</h3>
+          <p class="price">$54.00</p>
+          <button class="btn-add-cart">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <img src="https://via.placeholder.com/300x300" alt="Cotton throw blanket">
+          <h3>Cotton Throw Blanket</h3>
+          <p class="price">$45.00</p>
+          <button class="btn-add-cart">Add to Cart</button>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <span class="feature-icon">🚚</span>
+        <h3>Free Shipping</h3>
+        <p>On all orders over $50</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🔄</span>
+        <h3>Easy Returns</h3>
+        <p>30-day return window</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🔒</span>
+        <h3>Secure Checkout</h3>
+        <p>Your data stays protected</p>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Join our newsletter</h2>
+      <p>Get 10% off your first order.</p>
+      <form id="newsletterForm">
+        <input type="email" id="emailInput" placeholder="you@example.com" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="form-message" id="formMessage" role="status"></p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="#">Shipping Info</a>
+      <a href="#">Returns</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram">IG</a>
+      <a href="#" aria-label="Twitter">TW</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Aura Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
